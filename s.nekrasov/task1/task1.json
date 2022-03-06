@@ -1,0 +1,67 @@
+{
+  "student":
+  {
+      "first_name": "Sergey",
+      "second_name": "Nekrasov",
+      "group": "IU5-43B"
+  },
+  "subject": "PE",
+  "number_of_workings": 7,
+  "schedule_of_workings":
+  {
+    "working_out_1":
+    {
+      "date": "02.02.2022",
+      "time": "14:05",
+      "teacher": "Tsyganenko",
+      "place": "Manege"
+    },
+
+    "working_out_2":
+    {
+      "date": "09.02.2022",
+      "time": "15:50",
+      "teacher": "Bidordinova",
+      "place": "Metallurg"
+    },
+
+    "working_out_3":
+    {
+      "date": "16.02.2022",
+      "time": "10:00",
+      "teacher": "Volkov",
+      "place": "Boxing Gym"
+    },
+
+    "working_out_4":
+    {
+      "date": "23.02.2022",
+      "time": "12:20",
+      "teacher": "Zhdanova",
+      "place": "Volleyball Hall"
+    },
+
+    "working_out_5":
+    {
+      "date": "03.03.2022",
+      "time": "10:00",
+      "teacher": "Lazutina",
+      "place": "Boxing Gym"
+    },
+
+    "working_out_6":
+    {
+      "date": "10.03.2022",
+      "time": "12:20",
+      "teacher": "Nekazachenko",
+      "place": "Manege"
+    },
+
+    "working_out_7": {
+      "date": "17.03.2022",
+      "time": "14:05",
+      "teacher": "Umarov",
+      "place": "Volleyball Hall"
+    }
+  }
+}
