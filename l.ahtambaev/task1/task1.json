@@ -1,10 +1,10 @@
 {
   "person":
-  [
+  {
     "first_name": "Lev",
     "second_name": "Ahtambaev",
     "passport": [1234, 567899]
-  ],
+  },
   "date": "1.03.2022",
   "inventory":
   [
