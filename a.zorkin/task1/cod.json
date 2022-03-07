@@ -1,0 +1,41 @@
+{
+  "total": 4,
+  "items": [
+    {
+      "film_id": 301,
+      "name_ru": "Матрица",
+      "name_en": "The Matrix",
+      "name_original": "The Matrix",
+"description_film": " Жизнь Томаса Андерсона разделена на две части: днём он — самый обычный офисный работник, получающий нагоняи от начальства, а ночью превращается в хакера по имени Нео, и нет места в сети, куда он бы не смог проникнуть. Но однажды всё меняется. Томас узнаёт ужасающую правду о реальности.",
+      "poster_url_preview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/301.jpg",
+      "time_minutes":106
+    },
+    {
+      "film_id": 567,
+      "name_ru": "Бригада",
+      "name_en": "The brigade",
+      "name_original": "Бригада",
+"description_film": " Это история четырех друзей детства, обычных московских парней, Саши Белого, Космоса, Пчелы и Фила, выросших в одном дворе. Друзья решили немного подзаработать, но незапланированное убийство вмиг перемешало все задуманное, поставив на кон их жизни.",
+      "poster_url_preview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/567.jpg",
+      "time_minutes":543
+    },
+    {
+      "film_id": 243,
+      "name_ru": "Клаустрофобы",
+      "name_en": "Claustrophobia",
+      "name_original": "Claustrophobia",
+"description_film": " Получив приглашение сыграть в квест, победитель которого получит денежное вознаграждение, шестеро прежде незнакомых между собой людей решают испытать удачу. Но вскоре становится очевидно, что их выбрали для игры не случайно, задания не такие безобидные, участникам грозит вполне реальная опасность, а ставка в игре — их собственные жизни.",
+      "poster_url_preview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/243.jpg",
+      "time_minutes":343
+    },
+    {
+      "film_id": 156,
+      "name_ru": "Мачо и ботан",
+      "name_en": "Macho and nerdy",
+      "name_original": "21 Jump Street",
+"description_film": "Комедия о Шмидте и Дженко, которые ненавидели друг друга в школе. Однако жизнь распорядилась так, чтобы в полицейской академии они стали друзьями.",
+      "poster_url_preview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/156.jpg",
+      "time_minutes":109
+    }
+  ]
+}
