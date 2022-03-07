@@ -7,41 +7,42 @@
         "age": 19,
         "pass_data": [2416, 532154]
     },
+    "currency": "USD",
     "purpose": "Car Model'X'",
-    "cost": "49600 $",
-    "date": "02.03.2022",
+    "cost": 49600,
+    "date": "2022-03-02",
     "period": "6 month",
     "schedule_6month":
     {
         "1_month":
         {
-            "contribution": "9920 $",
-            "date": "02.03.2022"
+            "contribution": 9920,
+            "date": "2022-03-02"
         },
         "2_month":
         {
-            "contribution":"7440 $",
-            "date": "02.04.2022"
+            "contribution": 7440,
+            "date": "2022-04-02"
         },     
         "3_month":
         {
-            "contribution":"7440 $",
-            "date": "02.05.2022"
+            "contribution": 7440,
+            "date": "2022-05-02"
         },
         "4_month":
         {
-            "contribution":"7440 $",
-            "date": "02.06.2022"
+            "contribution": 7440,
+            "date": "2022-06-02"
         },
         "5_month":
         {
-            "contribution":"9920 $",
-            "date": "02.07.2022"
+            "contribution":9920,
+            "date": "2022-07-02"
         },
         "6_month":
         {
-            "contribution":"7440 $",
-            "date": "02.08.2022"
+            "contribution": 7440,
+            "date": "2022-08-02"
         }
     }
 }
