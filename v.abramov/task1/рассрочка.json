@@ -1,0 +1,48 @@
+{
+    "company": "Tesla",
+    "buyer":
+    {
+        "name":"Vladimir",
+        "last_name":"Abramov",
+        "age": 19,
+        "pass_data": [2416, 532154]
+    },
+    "currency": "USD",
+    "purpose": "Car Model'X'",
+    "cost": 49600,
+    "date": "2022-03-02",
+    "period": "6 month",
+    "schedule_6_month":
+    {
+        "1":
+        {
+            "contribution": 9920,
+            "date": "2022-03-02"
+        },
+        "2":
+        {
+            "contribution": 7440,
+            "date": "2022-04-02"
+        },     
+        "3":
+        {
+            "contribution": 7440,
+            "date": "2022-05-02"
+        },
+        "4":
+        {
+            "contribution": 7440,
+            "date": "2022-06-02"
+        },
+        "5":
+        {
+            "contribution":9920,
+            "date": "2022-07-02"
+        },
+        "6":
+        {
+            "contribution": 7440,
+            "date": "2022-08-02"
+        }
+    }
+}
