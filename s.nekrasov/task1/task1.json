@@ -1,67 +1,96 @@
 {
-  "student":
+  "student": 
   {
-      "first_name": "Sergey",
-      "second_name": "Nekrasov",
-      "group": "IU5-43B"
+    "second_name": "Nekrasov",
+    "first_name": "Sergey",
+    "group": "IU5-43B"
   },
   "subject": "PE",
   "number_of_workings": 7,
-  "schedule_of_workings":
+  "schedule_of_workings": 
   {
-    "working_out_1":
+    "1": 
     {
       "date": "02.02.2022",
       "time": "14:05",
-      "teacher": "Tsyganenko",
-      "place": "Manege"
+      "place": "Manege",
+      "teacher": {
+        "second_name": "Bogdanova",
+        "first_name": "Irina",
+        "middle_name": "Viktorovna"
+      }
     },
 
-    "working_out_2":
+    "2": 
     {
       "date": "09.02.2022",
       "time": "15:50",
-      "teacher": "Bidordinova",
-      "place": "Metallurg"
+      "place": "Metallurg",
+      "teacher": {
+        "second_name": "Vlasov",
+        "first_name": "Grigory",
+        "middle_name": "Vladimirovich"
+      }
     },
 
-    "working_out_3":
+    "3": 
     {
       "date": "16.02.2022",
       "time": "10:00",
-      "teacher": "Volkov",
-      "place": "Boxing Gym"
+      "place": "Boxing Gym",
+      "teacher": {
+        "second_name": "Zakharova",
+        "first_name": "Natalia",
+        "middle_name": "Alekseevna"
+      }
     },
 
-    "working_out_4":
+    "4": 
     {
       "date": "23.02.2022",
       "time": "12:20",
-      "teacher": "Zhdanova",
-      "place": "Volleyball Hall"
+      "place": "Volleyball Hall",
+      "teacher": {
+        "second_name": "Mantrova",
+        "first_name": "Ekaterina",
+        "middle_name": "Sergeevna"
+      }
     },
 
-    "working_out_5":
+    "5": 
     {
       "date": "03.03.2022",
       "time": "10:00",
-      "teacher": "Lazutina",
-      "place": "Boxing Gym"
+      "place": "Boxing Gym",
+      "teacher": {
+        "second_name": "Rastorguev",
+        "first_name": "Mikhail",
+        "middle_name": "Viktorovich"
+      }
     },
 
-    "working_out_6":
+    "6": 
     {
       "date": "10.03.2022",
       "time": "12:20",
-      "teacher": "Nekazachenko",
-      "place": "Manege"
+      "place": "Manege",
+      "teacher": {
+        "second_name": "Smirnov",
+        "first_name": "Alexey",
+        "middle_name": "Gennadievich"
+      }
     },
 
-    "working_out_7": {
+    "7": 
+    {
       "date": "17.03.2022",
       "time": "14:05",
-      "teacher": "Umarov",
-      "place": "Volleyball Hall"
+      "place": "Volleyball Hall",
+      "teacher": {
+        "second_name": "Kholopova",
+        "first_name": "Olga",
+        "middle_name": "Vladimirovna"
+      }
     }
   }
 }
