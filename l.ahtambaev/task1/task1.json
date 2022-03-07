@@ -1,0 +1,45 @@
+{
+  "person":
+  {
+    "first_name": "Lev",
+    "second_name": "Ahtambaev",
+    "person_id": "123e4567-e89b-12d3-a456-426655440000"
+  },
+  "date": "2022-03-1T03:10:50.27Z",
+  "inventory":
+  [
+    {
+      "equipment_id": "456e4567-e89b-12d3-a456-426655440000",
+      "price": 6000,
+      "days_on_rent": 5,
+      "kit":
+      [
+        "table - 1 pc."
+      ]
+    },
+    {
+      "equipment_id": "789e4567-e89b-12d3-a456-426655440000",
+      "price": 12000,
+      "days_on_rent": 4,
+      "kit":
+      [
+        "professional racket - 2 pcs.",
+        "professional shuttlecock - 1 pc.",
+        "racks - 2 pcs.",
+        "mesh - 1 pc.",
+        "site boundary marking"
+      ]
+    },
+    {
+      "equipment_id": "321e4567-e89b-12d3-a456-426655440000",
+      "price": 25000,
+      "days_on_rent": 2,
+      "kit":
+      [
+        "table  - 1 pc.",
+        "bat - 2 pcs.",
+        "puck - 2 pcs."
+      ]
+    }
+  ]
+}
