@@ -1,0 +1,96 @@
+{
+  "student": 
+  {
+    "second_name": "Nekrasov",
+    "first_name": "Sergey",
+    "group": "IU5-43B"
+  },
+  "subject": "PE",
+  "number_of_workings": 7,
+  "schedule_of_workings": 
+  {
+    "1": 
+    {
+      "date": "02.02.2022",
+      "time": "14:05",
+      "place": "Manege",
+      "teacher": {
+        "second_name": "Bogdanova",
+        "first_name": "Irina",
+        "middle_name": "Viktorovna"
+      }
+    },
+
+    "2": 
+    {
+      "date": "09.02.2022",
+      "time": "15:50",
+      "place": "Metallurg",
+      "teacher": {
+        "second_name": "Vlasov",
+        "first_name": "Grigory",
+        "middle_name": "Vladimirovich"
+      }
+    },
+
+    "3": 
+    {
+      "date": "16.02.2022",
+      "time": "10:00",
+      "place": "Boxing Gym",
+      "teacher": {
+        "second_name": "Zakharova",
+        "first_name": "Natalia",
+        "middle_name": "Alekseevna"
+      }
+    },
+
+    "4": 
+    {
+      "date": "23.02.2022",
+      "time": "12:20",
+      "place": "Volleyball Hall",
+      "teacher": {
+        "second_name": "Mantrova",
+        "first_name": "Ekaterina",
+        "middle_name": "Sergeevna"
+      }
+    },
+
+    "5": 
+    {
+      "date": "03.03.2022",
+      "time": "10:00",
+      "place": "Boxing Gym",
+      "teacher": {
+        "second_name": "Rastorguev",
+        "first_name": "Mikhail",
+        "middle_name": "Viktorovich"
+      }
+    },
+
+    "6": 
+    {
+      "date": "10.03.2022",
+      "time": "12:20",
+      "place": "Manege",
+      "teacher": {
+        "second_name": "Smirnov",
+        "first_name": "Alexey",
+        "middle_name": "Gennadievich"
+      }
+    },
+
+    "7": 
+    {
+      "date": "17.03.2022",
+      "time": "14:05",
+      "place": "Volleyball Hall",
+      "teacher": {
+        "second_name": "Kholopova",
+        "first_name": "Olga",
+        "middle_name": "Vladimirovna"
+      }
+    }
+  }
+}
