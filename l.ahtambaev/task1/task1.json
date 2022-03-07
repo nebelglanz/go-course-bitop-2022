@@ -3,13 +3,13 @@
   {
     "first_name": "Lev",
     "second_name": "Ahtambaev",
-    "person_id": "qwe123"
+    "person_id": "123e4567-e89b-12d3-a456-426655440000"
   },
-  "date": "1.03.2022",
+  "date": "2022-03-1T03:10:50.27Z",
   "inventory":
   [
     {
-      "equipment_id": "arm_wrestling_table",
+      "equipment_id": "456e4567-e89b-12d3-a456-426655440000",
       "price": 6000,
       "days_on_rent": 5,
       "kit":
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "equipment_id": "badminton",
+      "equipment_id": "789e4567-e89b-12d3-a456-426655440000",
       "price": 12000,
       "days_on_rent": 4,
       "kit":
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "equipment_id": "air hockey",
+      "equipment_id": "321e4567-e89b-12d3-a456-426655440000",
       "price": 25000,
       "days_on_rent": 2,
       "kit":
