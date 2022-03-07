@@ -12,34 +12,34 @@
     "cost": 49600,
     "date": "2022-03-02",
     "period": "6 month",
-    "schedule_6month":
+    "schedule_6_month":
     {
-        "1_month":
+        "1":
         {
             "contribution": 9920,
             "date": "2022-03-02"
         },
-        "2_month":
+        "2":
         {
             "contribution": 7440,
             "date": "2022-04-02"
         },     
-        "3_month":
+        "3":
         {
             "contribution": 7440,
             "date": "2022-05-02"
         },
-        "4_month":
+        "4":
         {
             "contribution": 7440,
             "date": "2022-06-02"
         },
-        "5_month":
+        "5":
         {
             "contribution":9920,
             "date": "2022-07-02"
         },
-        "6_month":
+        "6":
         {
             "contribution": 7440,
             "date": "2022-08-02"
