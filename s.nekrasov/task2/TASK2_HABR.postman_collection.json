@@ -1,0 +1,556 @@
+{
+	"info": {
+		"_postman_id": "84521bc9-3e3c-49ec-819f-2c20a1e54008",
+		"name": "TASK2_HABR",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"item": [
+				{
+					"name": "https://habr.com/ru/all/",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.4.837 Yowser/2.5 Safari/537.36"
+							},
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Referer",
+								"value": "http://away.vk.com/"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru,en;q=0.9"
+							},
+							{
+								"key": "Cookie",
+								"value": "feature_streaming_comments=true; fl=ru; hl=ru; visited_articles=47031; habr_web_home_feed=/all/"
+							}
+						],
+						"url": {
+							"raw": "https://habr.com/ru/all/",
+							"protocol": "https",
+							"host": [
+								"habr",
+								"com"
+							],
+							"path": [
+								"ru",
+								"all",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://habr.com/ru/sandbox/start/",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.4.837 Yowser/2.5 Safari/537.36"
+							},
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Referer",
+								"value": "https://habr.com/ru/flows/popsci/"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru,en;q=0.9"
+							},
+							{
+								"key": "Cookie",
+								"value": "feature_streaming_comments=true; fl=ru; hl=ru; visited_articles=47031; habr_web_home_feed=/news/page4/"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "text"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://habr.com/ru/sandbox/start/",
+							"protocol": "https",
+							"host": [
+								"habr",
+								"com"
+							],
+							"path": [
+								"ru",
+								"sandbox",
+								"start",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://habr.com/ru/flows/develop/hubs/",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.4.837 Yowser/2.5 Safari/537.36"
+							},
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Referer",
+								"value": "http://away.vk.com/"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru,en;q=0.9"
+							},
+							{
+								"key": "Cookie",
+								"value": "feature_streaming_comments=true; fl=ru; hl=ru; visited_articles=47031; habr_web_home_feed=/all/"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://habr.com/ru/flows/develop/hubs/",
+							"protocol": "https",
+							"host": [
+								"habr",
+								"com"
+							],
+							"path": [
+								"ru",
+								"flows",
+								"develop",
+								"hubs",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://habr.com/ru/hub/itcompanies/",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.4.837 Yowser/2.5 Safari/537.36"
+							},
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Referer",
+								"value": "http://away.vk.com/"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru,en;q=0.9"
+							},
+							{
+								"key": "Cookie",
+								"value": "feature_streaming_comments=true; fl=ru; hl=ru; visited_articles=47031; habr_web_home_feed=/all/"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://habr.com/ru/hub/itcompanies/",
+							"protocol": "https",
+							"host": [
+								"habr",
+								"com"
+							],
+							"path": [
+								"ru",
+								"hub",
+								"itcompanies",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "https://effect.habr.com/a",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+							},
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.4.837 Yowser/2.5 Safari/537.36"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Origin",
+								"value": "https://habr.com"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Referer",
+								"value": "https://habr.com/ru/hub/itcompanies/"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru,en;q=0.9"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "text"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://effect.habr.com/a",
+							"protocol": "https",
+							"host": [
+								"effect",
+								"habr",
+								"com"
+							],
+							"path": [
+								"a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://habr.com/kek/v1/articles/511114/pageview",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+							},
+							{
+								"key": "x-app-version",
+								"value": "2.66.0"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.5.810 Yowser/2.5 Safari/537.36"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "csrf-token",
+								"value": "pFXMHsrs-HnKHoVRTa_jRuyjQAKpIAKutZ3o"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "Origin",
+								"value": "https://habr.com"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Referer",
+								"value": "https://habr.com/ru/post/511114/"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru,en;q=0.9"
+							},
+							{
+								"key": "Cookie",
+								"value": "feature_streaming_comments=true; fl=ru; hl=ru; connect_sid=s%3AmFqT-RkdE3pFVMydaGUSujdrgiPCxey3.ZElYalDIZ690YsLwoaVaftoQxnvZ2zJNxdhAf2hhjks; habrsession_id=habrsession_id_a54b0ec8c4db0385fc29f5864c0bf00c; habr_web_home_feed=/all/; visited_articles=511114:47031"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "text"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://habr.com/kek/v1/articles/511114/pageview",
+							"protocol": "https",
+							"host": [
+								"habr",
+								"com"
+							],
+							"path": [
+								"kek",
+								"v1",
+								"articles",
+								"511114",
+								"pageview"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
