@@ -1,0 +1,460 @@
+{
+	"info": {
+		"_postman_id": "a51c3bc4-0e9e-4022-8ca7-267a3fbd94b8",
+		"name": "TASK2_FV",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "https://fv.bmstu.net/branch/ajax/event/day/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json, text/javascript, */*; q=0.01"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded; charset=UTF-8"
+							},
+							{
+								"key": "Origin",
+								"value": "https://fv.bmstu.net"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Referer",
+								"value": "https://fv.bmstu.net/events/"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "Cookie",
+								"value": "_ga=GA1.2.1579591443.1643985675; PHPSESSID=1k3dahpigspfo7dv8317k3d56h; _gid=GA1.2.1407199305.1647199646; openidreferal=https%3A%2F%2Ffv.bmstu.net%2F; _gat_gtag_UA_54621671_2=1; sputnik_session=1647199645546|5"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "id=14&date=2022-03-14&security_ls_key=ef941203792c7e9144c46ab5e0d034da"
+						},
+						"url": {
+							"raw": "https://fv.bmstu.net/branch/ajax/event/day/",
+							"protocol": "https",
+							"host": [
+								"fv",
+								"bmstu",
+								"net"
+							],
+							"path": [
+								"branch",
+								"ajax",
+								"event",
+								"day",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://fv.bmstu.net/branch/ajax/event/calendar/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json, text/javascript, */*; q=0.01"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded; charset=UTF-8"
+							},
+							{
+								"key": "Origin",
+								"value": "https://fv.bmstu.net"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Referer",
+								"value": "https://fv.bmstu.net/events/"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "Cookie",
+								"value": "_ga=GA1.2.1579591443.1643985675; PHPSESSID=1k3dahpigspfo7dv8317k3d56h; _gid=GA1.2.1407199305.1647199646; openidreferal=https%3A%2F%2Ffv.bmstu.net%2F; sputnik_session=1647199645546|27; _gat_gtag_UA_54621671_2=1"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "id=14&date=202203&security_ls_key=ef941203792c7e9144c46ab5e0d034da"
+						},
+						"url": {
+							"raw": "https://fv.bmstu.net/branch/ajax/event/calendar/",
+							"protocol": "https",
+							"host": [
+								"fv",
+								"bmstu",
+								"net"
+							],
+							"path": [
+								"branch",
+								"ajax",
+								"event",
+								"calendar",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "https://fv.bmstu.net/courses/exercises",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+							},
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Referer",
+								"value": "https://fv.bmstu.net/courses/tube"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "Cookie",
+								"value": "_ga=GA1.2.1579591443.1643985675; PHPSESSID=1k3dahpigspfo7dv8317k3d56h; _gid=GA1.2.1407199305.1647199646; openidreferal=https%3A%2F%2Ffv.bmstu.net%2F; sputnik_session=1647199645546|15; _gat_gtag_UA_54621671_2=1"
+							}
+						],
+						"url": {
+							"raw": "https://fv.bmstu.net/courses/exercises",
+							"protocol": "https",
+							"host": [
+								"fv",
+								"bmstu",
+								"net"
+							],
+							"path": [
+								"courses",
+								"exercises"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://fv.bmstu.net/docs/",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+							},
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Referer",
+								"value": "https://fv.bmstu.net/courses/exercises"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "Cookie",
+								"value": "_ga=GA1.2.1579591443.1643985675; PHPSESSID=1k3dahpigspfo7dv8317k3d56h; _gid=GA1.2.1407199305.1647199646; openidreferal=https%3A%2F%2Ffv.bmstu.net%2F; sputnik_session=1647199645546|17; _gat_gtag_UA_54621671_2=1"
+							}
+						],
+						"url": {
+							"raw": "https://fv.bmstu.net/docs/",
+							"protocol": "https",
+							"host": [
+								"fv",
+								"bmstu",
+								"net"
+							],
+							"path": [
+								"docs",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://fv.bmstu.net/students/teachersmails",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+							},
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Referer",
+								"value": "https://fv.bmstu.net/students/allocation"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "Cookie",
+								"value": "_ga=GA1.2.1579591443.1643985675; PHPSESSID=1k3dahpigspfo7dv8317k3d56h; _gid=GA1.2.1407199305.1647199646; openidreferal=https%3A%2F%2Ffv.bmstu.net%2F; _gat_gtag_UA_54621671_2=1; sputnik_session=1647199645546|21"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://fv.bmstu.net/students/teachersmails",
+							"protocol": "https",
+							"host": [
+								"fv",
+								"bmstu",
+								"net"
+							],
+							"path": [
+								"students",
+								"teachersmails"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://fv.bmstu.net/students/time",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+							},
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Referer",
+								"value": "https://fv.bmstu.net/students/smo"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "Cookie",
+								"value": "_ga=GA1.2.1579591443.1643985675; PHPSESSID=1k3dahpigspfo7dv8317k3d56h; _gid=GA1.2.1407199305.1647199646; openidreferal=https%3A%2F%2Ffv.bmstu.net%2F; _gat_gtag_UA_54621671_2=1; sputnik_session=1647199645546|25"
+							}
+						],
+						"url": {
+							"raw": "https://fv.bmstu.net/students/time",
+							"protocol": "https",
+							"host": [
+								"fv",
+								"bmstu",
+								"net"
+							],
+							"path": [
+								"students",
+								"time"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
