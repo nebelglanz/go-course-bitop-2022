@@ -1,0 +1,573 @@
+{
+	"info": {
+		"_postman_id": "c55865f3-5376-42cb-bf2e-15edeef8dca3",
+		"name": "VKpay",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Internet Payment",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "X-App-Params",
+						"value": "{\"vkApps\":\"1\",\"vk_access_token_settings\":\"\",\"vk_app_id\":\"432715\",\"vk_are_notifications_enabled\":\"0\",\"vk_is_app_user\":\"0\",\"vk_is_favorite\":\"0\",\"vk_language\":\"ru\",\"vk_platform\":\"desktop_web\",\"vk_ref\":\"other\",\"vk_ts\":\"1647272315\",\"vk_user_id\":\"231423143214231\",\"sign\":\"4321432143241432143142314321\"}"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "X-Access-Token",
+						"value": "53214321432431432432143214321"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.5.810 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Origin",
+						"value": "https://vk.payservice.io"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Referer",
+						"value": "https://vk.payservice.io/"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://api.payservice.io/provider/?limit=16&offset=0&group_id=internet&region_id=5506",
+					"protocol": "https",
+					"host": [
+						"api",
+						"payservice",
+						"io"
+					],
+					"path": [
+						"provider",
+						""
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "16"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "group_id",
+							"value": "internet"
+						},
+						{
+							"key": "region_id",
+							"value": "5506"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Transport Payment",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "X-App-Params",
+						"value": "{\"vkApps\":\"1\",\"vk_access_token_settings\":\"\",\"vk_app_id\":\"6909114\",\"vk_are_notifications_enabled\":\"0\",\"vk_is_app_user\":\"0\",\"vk_is_favorite\":\"0\",\"vk_language\":\"ru\",\"vk_platform\":\"desktop_web\",\"vk_ref\":\"other\",\"vk_ts\":\"42314321421\",\"vk_user_id\":\"4231432143214231\",\"sign\":\"432143214321432143214321\"}"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "X-Access-Token",
+						"value": "432142142142342342343214321432141"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.5.810 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Origin",
+						"value": "https://vk.payservice.io"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Referer",
+						"value": "https://vk.payservice.io/"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://api.payservice.io/provider/?limit=16&offset=0&group_id=transport_cards&region_id=5506",
+					"protocol": "https",
+					"host": [
+						"api",
+						"payservice",
+						"io"
+					],
+					"path": [
+						"provider",
+						""
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "16"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "group_id",
+							"value": "transport_cards"
+						},
+						{
+							"key": "region_id",
+							"value": "5506"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Transaction History",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "X-VKPAY-SESSIONID",
+						"value": "2phzI_SuMr"
+					},
+					{
+						"key": "X-VKPAY-VERSION",
+						"value": "2.0.0"
+					},
+					{
+						"key": "X-VKPAY-PLATFORM",
+						"value": "web"
+					},
+					{
+						"key": "X-App-Params",
+						"value": "{\"vk_access_token_settings\":\"notify,friends,groups\",\"vk_app_id\":\"432143241\",\"vk_are_notifications_enabled\":\"0\",\"vk_experiment\":\"eyIxNjE4IjowfQ\",\"vk_is_app_user\":\"1\",\"vk_is_favorite\":\"0\",\"vk_language\":\"ru\",\"vk_platform\":\"desktop_web\",\"vk_ref\":\"other\",\"vk_ts\":\"43214321421\",\"vk_user_id\":\"432143\",\"sign\":\"4321432143243214321432141\"}"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.5.810 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "X-VK-Id",
+						"value": "662860855"
+					},
+					{
+						"key": "X-MT-LVID",
+						"value": "89ef11e3992f5f57abd2548db15daa2d"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+					},
+					{
+						"key": "X-VK-Hash",
+						"value": "1d990200ee24f818"
+					},
+					{
+						"key": "X-VKApp-Token",
+						"value": "543254325432532523"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Origin",
+						"value": "https://ea-miniapp.vkpay.io"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Referer",
+						"value": "https://ea-miniapp.vkpay.io/"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://api.vkpay.io/transaction/history/?limit=15",
+					"protocol": "https",
+					"host": [
+						"api",
+						"vkpay",
+						"io"
+					],
+					"path": [
+						"transaction",
+						"history",
+						""
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "15"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Cards",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Length",
+						"value": "0"
+					},
+					{
+						"key": "X-VKPAY-SESSIONID",
+						"value": "4vTnW0C-9K"
+					},
+					{
+						"key": "X-VKPAY-VERSION",
+						"value": "2.0.0"
+					},
+					{
+						"key": "X-VKPAY-PLATFORM",
+						"value": "web"
+					},
+					{
+						"key": "X-App-Params",
+						"value": "{\"vk_access_token_settings\":\"notify,friends,groups\",\"vk_app_id\":\"7131443\",\"vk_are_notifications_enabled\":\"0\",\"vk_experiment\":\"eyIxNjE4IjowfQ\",\"vk_is_app_user\":\"1\",\"vk_is_favorite\":\"0\",\"vk_language\":\"ru\",\"vk_platform\":\"desktop_web\",\"vk_ref\":\"other\",\"vk_ts\":\"32131231231707\",\"vk_user_id\":\"6432140855\",\"sign\":\"432142143214321423143213214214321\"}"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.5.810 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "X-VK-Id",
+						"value": "662860855"
+					},
+					{
+						"key": "X-MT-LVID",
+						"value": "89ef11e3992f5f57abd2548db15daa2d"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+					},
+					{
+						"key": "X-VK-Hash",
+						"value": "1d990200ee24f818"
+					},
+					{
+						"key": "X-VKApp-Token",
+						"value": "543253254354342525432543"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Origin",
+						"value": "https://ea-miniapp.vkpay.io"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Referer",
+						"value": "https://ea-miniapp.vkpay.io/"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://api.vkpay.io/electronic_funds/get_list",
+					"protocol": "https",
+					"host": [
+						"api",
+						"vkpay",
+						"io"
+					],
+					"path": [
+						"electronic_funds",
+						"get_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get AliExpress",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "vkpay.com"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.5.810 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "referer",
+						"value": "https://vkpay.com/merchants/?c=1"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "tmr_lvid=72d05e19b4cb8ffa207efec0022c5f49; tmr_lvidTS=1647271491431; _ga=GA1.2.692528897.1647271492; _gid=GA1.2.1250579281.1647271492; tmr_detect=0%7C1647272972993; tmr_reqNum=15"
+					}
+				],
+				"url": {
+					"raw": "https://vkpay.com/merchants/data/aliexpress.json",
+					"protocol": "https",
+					"host": [
+						"vkpay",
+						"com"
+					],
+					"path": [
+						"merchants",
+						"data",
+						"aliexpress.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Tracking",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "top-fwz1.mail.ru"
+					},
+					{
+						"key": "content-length",
+						"value": "0"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Yandex\";v=\"22\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.174 YaBrowser/22.1.5.810 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "content-type",
+						"value": "text/plain;charset=UTF-8"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "origin",
+						"value": "https://ea-miniapp.vkpay.io"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "no-cors"
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "referer",
+						"value": "https://ea-miniapp.vkpay.io/"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "mrcu=897E6226048D16CCD3A1FEE67BBC; p=VtAAALEjl7QA; searchuid=4368460391646339096; Mpop=1646658714:5c7202404601725f1905000017031f051c054f6c5150445e05190401041d47565c58595853534211585957584d1f4642:volohajks@inbox.ru:; i=AQBHXC9iDAATAAgNBJkFAXseAvUgAfYgAU4CCEYX8QQBVAYBGwsB4QsB7QsBKgwBRQwBrQwBrgwBsQwBsgwBzwwB/wwBAA0BAQ0BBg0BCg0BDg0BLw0BcA0BcQ0Btg0BLA4BXwIIQxZJAAMSCAE0CAE1CAFYCAFyCAGACAKFCAKHCAGoCAG7CAH/CAE0CgFGCgFRCgFlCgFuCgGLCgG0CgG3CgHsCgH7CgGTAghwJW4AAQACAQECAQcCAQoCAQ0CARICARcCAVQFAVsFAV4FAWgFAXQFAXUFAXYFAaAFAaEFAaQFAaYFAakFAXoGAcULAcgLAckLAcwLAc4LAWwNAXENAXUNAXgNAc8PAU8QAXYQAXoQAeUQAcARAaJjAdwECAQBAQAB4QQJAQHiBAoEHQbSB10GBQIB/dYGCAQBAQABvQcIBAGCFQEpCQhMGdoCASEEASIEAYIEAYQEAYgEAY0EAZMEATQHAUEHAawHAbgHAbkHAboHAeQHAegHAeoHAe0HAbMIAcULAcgLAcwLAc4LAW0NAYASAYkNBQIB+Q==; s=fver=0|ww=1467|wh=766|octavius=1; b=eEoBAKBgnW0AAQAACPerfqjhDmAQVYjCSXgGUSvjgEAmuFwYTo+QCwMA; c=pWQvYgEAoHsTAAAUAxAACQAAQDEvlAE8M3cZwFyn0+XmC4AjJbMOAoTkBLYJB2JgldCDADN3GUAA; VID=2N5boi1Sd5Y800000b1AH4Y8:::7405d5a-0-749be0a-7405d4e:CAASED-EJTQKUJBQyJL28H9BaX0acLc3_9sqNwRO4Dx9nzJPhlnrTZ7vzgzXHgLgz28ISe8FgJ5iv0DI-qx0o1ubSWZk7oNd8y21VW3_Zhd-KKCi6NrVeciooCN7Pv6JJom4VS8AGYALHSnFeY14NUYmtDsXH5dmo72-EI3P41aMAqN7Mcw"
+					}
+				],
+				"url": {
+					"raw": "https://top-fwz1.mail.ru/tracker?;js=13;id=3184940;e=RT/beat;sid=9f836cb870d2d602;ids=3184940;ver=60.3.0;_=0.5218061597158103",
+					"protocol": "https",
+					"host": [
+						"top-fwz1",
+						"mail",
+						"ru"
+					],
+					"path": [
+						"tracker"
+					],
+					"query": [
+						{
+							"key": ";js",
+							"value": "13;id=3184940;e=RT/beat;sid=9f836cb870d2d602;ids=3184940;ver=60.3.0;_=0.5218061597158103"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

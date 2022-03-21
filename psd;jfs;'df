@@ -1,0 +1,92 @@
+[33mcommit 280ee77eafd8e8726850843a1ddbc1dd4bba9c2c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Vladimir Abramov <volohajks@inbox.ru>
+Date:   Sun Mar 20 21:21:03 2022 +0300
+
+    task2 complete
+
+[33mcommit fe7c6cfbbc0f5ee272427011da2aa134eb551cc8[m
+Author: Vladimir Abramov <volohajks@inbox.ru>
+Date:   Mon Mar 7 20:20:11 2022 +0300
+
+    [task1] Выполненное задание
+
+[33mcommit 32671a615b0ba2c4f4e743c88361b224ed85e34a[m
+Author: Vladimir Abramov <volohajks@inbox.ru>
+Date:   Mon Mar 7 18:27:07 2022 +0300
+
+    [task1] Первое задание с отчетом
+
+[33mcommit 0af516fc37d7e2c715ce1fd6904d3667e48bfa16[m
+Author: Vladimir Abramov <volohajks@inbox.ru>
+Date:   Fri Mar 4 23:34:20 2022 +0300
+
+    [task1] Первое задание с отчетом
+
+[33mcommit 99a6b02348eb7156c7dd82aa257160d524fa28ad[m
+Author: Vladimir Abramov <volohajks@inbox.ru>
+Date:   Mon Feb 21 20:51:23 2022 +0300
+
+    [task1] create test commit
+
+[33mcommit 6e41476c1179e9c8fdcec82f7f71d2791336fd69[m
+Merge: b8c6e35 44bb5cf
+Author: Konovalov Maxim <43151027+KaymeKaydex@users.noreply.github.com>
+Date:   Mon Feb 21 19:31:08 2022 +0300
+
+    Merge pull request #1 from quedafoe/main
+    
+    [a.zorkin] init task 1
+
+[33mcommit 44bb5cfd92283e19b5718dd2065a5bfcbaa02a35[m
+Author: Konovalov Maxim <djassange@yandex.ru>
+Date:   Mon Feb 21 19:18:32 2022 +0300
+
+    [a.zorkin] init task 1
+
+[33mcommit b8c6e35f856f94ed97a1250dad4950d88127aaf0[m
+Author: maxim-konovalov <maksim.konovalov@vk.team>
+Date:   Wed Feb 16 22:31:53 2022 +0300
+
+    .DS_Store banished!
+
+[33mcommit 02d9e4fc5beb4b94b38eb4dd1ae2bab086e4d324[m
+Author: maxim-konovalov <maksim.konovalov@vk.team>
+Date:   Wed Feb 16 22:29:51 2022 +0300
+
+    add a.zorkin dir
+
+[33mcommit 910b11aca2c1e991aed6ee22e88df81462685339[m
+Author: maxim-konovalov <maksim.konovalov@vk.team>
+Date:   Wed Feb 16 22:20:38 2022 +0300
+
+    add few new materials
+
+[33mcommit b9c02a7a3c9e5a11bcfc8d06031b04b7f73172bf[m
+Author: maxim-konovalov <maksim.konovalov@vk.team>
+Date:   Wed Feb 16 22:05:40 2022 +0300
+
+    rm useless files
+
+[33mcommit 704d0c740d3f629f37331de4b16bef82ec708f46[m
+Author: maxim-konovalov <maksim.konovalov@vk.team>
+Date:   Wed Feb 16 22:03:40 2022 +0300
+
+    add gitignore
+
+[33mcommit 939d382899e7c3540c6fcdbf37273a6fc383e88d[m
+Author: maxim-konovalov <maksim.konovalov@vk.team>
+Date:   Wed Feb 16 22:02:46 2022 +0300
+
+    rm original pdf
+
+[33mcommit 1afd0fab0b9d35f1bbef93415085c09b86924c7d[m
+Author: maxim-konovalov <maksim.konovalov@vk.team>
+Date:   Wed Feb 16 22:01:27 2022 +0300
+
+    init
+
+[33mcommit fdb7334a848edea45dce8e5bcda005b25de9ee98[m
+Author: Konovalov Maxim <43151027+KaymeKaydex@users.noreply.github.com>
+Date:   Wed Feb 16 21:55:33 2022 +0300
+
+    Initial commit
