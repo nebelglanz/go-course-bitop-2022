@@ -1,0 +1,33 @@
+{
+  "total": 4,
+  "items": {
+    "1": {
+      "status": true,
+      "item_id": 124,
+      "name": "Ball",
+      "description": "You can use it for volleyball and some other active games",
+      "price": 100
+    },
+    "2": {
+      "status": false,
+      "item_id": 321,
+      "name": "Longboard",
+      "description": "A great idea for long-distance walks",
+      "price": 300
+    },
+    "3": {
+      "status": true,
+      "item_id": 405,
+      "name": "Rollers",
+      "description": "Good rollers for sportive walks",
+      "price": 250
+    },
+    "4": {
+      "status": false,
+      "item_id": 310,
+      "name": "Bicycle",
+      "description": "You can ride it everywhere",
+      "price": 400
+    }
+  }
+}
