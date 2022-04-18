@@ -14,16 +14,16 @@ func main() {
 		log.Println("Введите название JSON-файла")
 		os.Exit(2)
 	}
-	fmt.Println("Выходной файл будет записан в output.json")
-	fmt.Println("Делаю запрос")
+	log.Println("Выходной файл будет записан в output.json")
+	log.Println("Делаю запрос")
 	start := time.Now()
 	resp, err := http.Get("https://habr.com/kek/v2/articles/?company=vk&fl=ru&hl=ru&page=1")
 	if err != nil {
 		log.Println("Не удалось совершить запрос", err)
 		os.Exit(2)
 	} else {
-		fmt.Println("Запрос сделан")
-		fmt.Println("Запрос длился: ", time.Since(start))
+		log.Println("Запрос сделан")
+		log.Println("Запрос длился: ", time.Since(start))
 	}
 	var rawResp []byte
 	rawResp, err = ioutil.ReadAll(resp.Body)
@@ -45,6 +45,6 @@ func main() {
 		log.Println("Не удалось записать в JSON-файл", err)
 		os.Exit(2)
 	} else {
-		fmt.Println("Скрипт выполнен")
+		log.Println("Скрипт выполнен")
 	}
 }
