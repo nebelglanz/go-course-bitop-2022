@@ -21,10 +21,9 @@ func main() {
 	if err != nil {
 		log.Println("Не удалось совершить запрос", err)
 		os.Exit(2)
-	} else {
-		log.Println("Запрос сделан")
-		log.Println("Запрос длился: ", time.Since(start))
 	}
+	log.Println("Запрос сделан")
+	log.Println("Запрос длился: ", time.Since(start))
 	var rawResp []byte
 	rawResp, err = ioutil.ReadAll(resp.Body)
 	if err != nil {
@@ -44,7 +43,6 @@ func main() {
 	if err != nil {
 		log.Println("Не удалось записать в JSON-файл", err)
 		os.Exit(2)
-	} else {
-		log.Println("Скрипт выполнен")
 	}
+	log.Println("Скрипт выполнен")
 }
