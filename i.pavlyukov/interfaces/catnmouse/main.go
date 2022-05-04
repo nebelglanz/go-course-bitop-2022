@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"io/ioutil"
+	"net/http"
+)
 
 type Cat struct {
 	Name    string
@@ -17,6 +21,10 @@ func (c *Cat) Greeting(c8 int) error {
 func (c *Cat) Walk() {
 }
 
+func (c *Cat) String() string {
+	return c.Name + " " + c.Surname
+}
+
 // ------------- //
 
 type Mouse struct {
@@ -31,8 +39,12 @@ func (m *Mouse) Greeting(p2 int) error {
 func (m *Mouse) Walk() {
 }
 
-func (m *Mouse) Say(word string) {
+func (m *Mouse) Say(word ...string) {
 	fmt.Println(word)
+}
+
+func (m *Mouse) String() string {
+	return "mouse has no name"
 }
 
 // ------ //
@@ -40,6 +52,7 @@ func (m *Mouse) Say(word string) {
 type Animal interface {
 	Greeting(int) error
 	Walk()
+	String() string
 }
 
 func Welcome(an Animal) {
@@ -48,21 +61,30 @@ func Welcome(an Animal) {
 }
 
 func main() {
-	ca := &Cat{
-		Name:    "Larisa",
-		Surname: "Guzeeva",
+
+	//ca2 := &Cat{
+	//	Name:    "Rosa",
+	//	Surname: "Sibitova",
+	//}
+
+	//mo := &Mouse{}
+
+	resp, _ := http.Get("https://ya.ru")
+	defer resp.Body.Close()
+
+	full, _ := ioutil.ReadAll(resp.Body)
+
+	var an interface{} = int32(100)
+	// type casting
+	switch an.(type) {
+	case int:
+	case int32:
+	case Animal:
+
 	}
 
-	ca2 := &Cat{
-		Name:    "Rosa",
-		Surname: "Sibitova",
-	}
+	// type conversion
+	fullStr := []byte(full)
 
-	mo := &Mouse{}
-
-	Welcome(ca)
-
-	Welcome(ca2)
-
-	Welcome(mo)
+	fmt.Println(fullStr)
 }
